@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Lista de cambios no controlados predeterminada",
+			"files": [
+				"C:/Repositories/UnrealEngine/UE5-Test-Projects/IntroProject/IntroProject/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/JZ/HD41TQE43AZU18XYM90640.uasset",
+				"C:/Repositories/UnrealEngine/UE5-Test-Projects/IntroProject/IntroProject/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/20/61LWBY7D7784GK4VWTOYMV.uasset"
+			]
+		}
+	]
+}
