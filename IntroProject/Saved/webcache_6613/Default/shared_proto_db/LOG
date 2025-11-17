@@ -1,2 +1,3 @@
-2025/11/17-11:57:12.745 395c Creating DB C:\Repositories\UnrealEngine\UE5-Test-Projects\IntroProject\IntroProject\Saved\webcache_6613\Default\shared_proto_db since it was missing.
-2025/11/17-11:57:12.765 395c Reusing MANIFEST C:\Repositories\UnrealEngine\UE5-Test-Projects\IntroProject\IntroProject\Saved\webcache_6613\Default\shared_proto_db/MANIFEST-000001
+2025/11/17-14:08:04.422 5af8 Reusing MANIFEST C:\Repositories\UnrealEngine\UE5-Test-Projects\IntroProject\Saved\webcache_6613\Default\shared_proto_db/MANIFEST-000001
+2025/11/17-14:08:04.427 5af8 Recovering log #3
+2025/11/17-14:08:04.428 5af8 Reusing old log C:\Repositories\UnrealEngine\UE5-Test-Projects\IntroProject\Saved\webcache_6613\Default\shared_proto_db/000003.log 
