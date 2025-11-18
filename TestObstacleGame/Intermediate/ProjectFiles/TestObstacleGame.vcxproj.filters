@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestObstacleGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TestObstacleGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\TestObstacleGame">
+      <UniqueIdentifier>{0439104B-34B4-3E02-86F6-DFE96DD70EFC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\MovingPlatform.cpp">
+      <Filter>Source\TestObstacleGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\MovingPlatform.h">
+      <Filter>Source\TestObstacleGame</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TestObstacleGame\TestObstacleGame.Build.cs">
+      <Filter>Source\TestObstacleGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TestObstacleGame\TestObstacleGame.cpp">
+      <Filter>Source\TestObstacleGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\TestObstacleGame.h">
+      <Filter>Source\TestObstacleGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\TestObstacleGameCharacter.cpp">
+      <Filter>Source\TestObstacleGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\TestObstacleGameCharacter.h">
+      <Filter>Source\TestObstacleGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\TestObstacleGameGameMode.cpp">
+      <Filter>Source\TestObstacleGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\TestObstacleGameGameMode.h">
+      <Filter>Source\TestObstacleGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\TestObstacleGamePlayerController.cpp">
+      <Filter>Source\TestObstacleGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\TestObstacleGamePlayerController.h">
+      <Filter>Source\TestObstacleGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestObstacleGame\Variant_Combat">
+      <UniqueIdentifier>{0A3CA12A-367C-3431-BD0D-05ECC146C517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TestObstacleGame\Variant_Combat\AI">
+      <UniqueIdentifier>{135BD6D7-E1A7-3E8A-AFB2-51E6CBE797CB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\EnvQueryContext_Danger.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\EnvQueryContext_Danger.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestObstacleGame\Variant_Combat\Animation">
+      <UniqueIdentifier>{2231930C-B7FB-3C63-8874-30EDBE542256}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestObstacleGame\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{2DD30A7E-E586-3674-A635-9AE385017CD1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestObstacleGame\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{C78AFF0E-AC1C-323D-BCF7-DFDCED137338}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestObstacleGame\Variant_Combat\UI">
+      <UniqueIdentifier>{B3DFF8D9-340F-3BD4-BB56-C87073B5F878}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\TestObstacleGame\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestObstacleGame\Variant_Platforming">
+      <UniqueIdentifier>{29165275-A3A6-320B-BA1B-3C4DE8E7EEC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TestObstacleGame\Variant_Platforming\Animation">
+      <UniqueIdentifier>{CB454A5F-6ECB-3931-A40E-871C8569302B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\TestObstacleGame\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\TestObstacleGame\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\TestObstacleGame\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\TestObstacleGame\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\TestObstacleGame\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestObstacleGame\Variant_SideScrolling">
+      <UniqueIdentifier>{41883E31-DC78-330F-970A-431B7EE21845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TestObstacleGame\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{A31600CE-78A9-38E5-A621-F9B5952C0034}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestObstacleGame\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{8DEB976C-03AB-39B9-9A41-3C60594A3BB5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestObstacleGame\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{534F0D26-EA3E-3827-8513-A270EDD373EA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestObstacleGame\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{02DADEBE-20CF-3B04-B232-AD9C1394EDC6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestObstacleGame\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\TestObstacleGame\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+    <None Include="..\..\TestObstacleGame.uproject" />
+  </ItemGroup>
+</Project>

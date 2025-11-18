@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TestObstacleGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Repositories/UnrealEngine/UE5-Test-Projects/TestObstacleGame/Intermediate/Build/Win64/x64/TestObstacleGameEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Repositories/UnrealEngine/UE5-Test-Projects/TestObstacleGame/Intermediate/Build/Win64/x64/UnrealEditor/Development/TestObstacleGame/Module.TestObstacleGame.1.cpp.obj"
+"C:/Repositories/UnrealEngine/UE5-Test-Projects/TestObstacleGame/Intermediate/Build/Win64/x64/UnrealEditor/Development/TestObstacleGame/Module.TestObstacleGame.2.cpp.obj"
+"C:/Repositories/UnrealEngine/UE5-Test-Projects/TestObstacleGame/Intermediate/Build/Win64/x64/UnrealEditor/Development/TestObstacleGame/Module.TestObstacleGame.3.cpp.obj"
+"C:/Repositories/UnrealEngine/UE5-Test-Projects/TestObstacleGame/Intermediate/Build/Win64/x64/UnrealEditor/Development/TestObstacleGame/Default.rc2.res"
+/OUT:"C:/Repositories/UnrealEngine/UE5-Test-Projects/TestObstacleGame/Intermediate/Build/Win64/x64/UnrealEditor/Development/TestObstacleGame/UnrealEditor-TestObstacleGame.lib"
