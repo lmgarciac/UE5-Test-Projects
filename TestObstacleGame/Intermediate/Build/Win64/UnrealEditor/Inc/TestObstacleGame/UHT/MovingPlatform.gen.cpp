@@ -12,6 +12,7 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 
 // ********** Begin Cross Module References ********************************************************
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 TESTOBSTACLEGAME_API UClass* Z_Construct_UClass_AMovingPlatform();
@@ -56,24 +57,24 @@ struct Z_Construct_UClass_AMovingPlatform_Statics
 		{ "IncludePath", "MovingPlatform.h" },
 		{ "ModuleRelativePath", "MovingPlatform.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_memberVariableFloat_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_movingPlatformTranslationVelocity_MetaData[] = {
 		{ "Category", "MovingPlatform" },
 		{ "ModuleRelativePath", "MovingPlatform.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_memberVariableInt_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_movingPlatformRotationVelocity_MetaData[] = {
 		{ "Category", "MovingPlatform" },
 		{ "ModuleRelativePath", "MovingPlatform.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_movingPlatformLocation_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_maxMovingDistance_MetaData[] = {
 		{ "Category", "MovingPlatform" },
 		{ "ModuleRelativePath", "MovingPlatform.h" },
 	};
 #endif // WITH_METADATA
 
 // ********** Begin Class AMovingPlatform constinit property declarations **************************
-	static const UECodeGen_Private::FFloatPropertyParams NewProp_memberVariableFloat;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_memberVariableInt;
-	static const UECodeGen_Private::FStructPropertyParams NewProp_movingPlatformLocation;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_movingPlatformTranslationVelocity;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_movingPlatformRotationVelocity;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_maxMovingDistance;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class AMovingPlatform constinit property declarations ****************************
 	static UObject* (*const DependentSingletons[])();
@@ -84,13 +85,13 @@ struct Z_Construct_UClass_AMovingPlatform_Statics
 }; // struct Z_Construct_UClass_AMovingPlatform_Statics
 
 // ********** Begin Class AMovingPlatform Property Definitions *************************************
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_memberVariableFloat = { "memberVariableFloat", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, memberVariableFloat), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_memberVariableFloat_MetaData), NewProp_memberVariableFloat_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_memberVariableInt = { "memberVariableInt", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, memberVariableInt), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_memberVariableInt_MetaData), NewProp_memberVariableInt_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_movingPlatformLocation = { "movingPlatformLocation", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, movingPlatformLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_movingPlatformLocation_MetaData), NewProp_movingPlatformLocation_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_movingPlatformTranslationVelocity = { "movingPlatformTranslationVelocity", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, movingPlatformTranslationVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_movingPlatformTranslationVelocity_MetaData), NewProp_movingPlatformTranslationVelocity_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_movingPlatformRotationVelocity = { "movingPlatformRotationVelocity", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, movingPlatformRotationVelocity), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_movingPlatformRotationVelocity_MetaData), NewProp_movingPlatformRotationVelocity_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_maxMovingDistance = { "maxMovingDistance", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, maxMovingDistance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_maxMovingDistance_MetaData), NewProp_maxMovingDistance_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovingPlatform_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_memberVariableFloat,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_memberVariableInt,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_movingPlatformLocation,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_movingPlatformTranslationVelocity,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_movingPlatformRotationVelocity,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_maxMovingDistance,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatform_Statics::PropPointers) < 2048);
 // ********** End Class AMovingPlatform Property Definitions ***************************************
@@ -133,10 +134,10 @@ AMovingPlatform::~AMovingPlatform() {}
 struct Z_CompiledInDeferFile_FID_Repositories_UnrealEngine_UE5_Test_Projects_TestObstacleGame_Source_TestObstacleGame_MovingPlatform_h__Script_TestObstacleGame_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 1837299031U) },
+		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 1430411929U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Repositories_UnrealEngine_UE5_Test_Projects_TestObstacleGame_Source_TestObstacleGame_MovingPlatform_h__Script_TestObstacleGame_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repositories_UnrealEngine_UE5_Test_Projects_TestObstacleGame_Source_TestObstacleGame_MovingPlatform_h__Script_TestObstacleGame_124257459{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repositories_UnrealEngine_UE5_Test_Projects_TestObstacleGame_Source_TestObstacleGame_MovingPlatform_h__Script_TestObstacleGame_4281236352{
 	TEXT("/Script/TestObstacleGame"),
 	Z_CompiledInDeferFile_FID_Repositories_UnrealEngine_UE5_Test_Projects_TestObstacleGame_Source_TestObstacleGame_MovingPlatform_h__Script_TestObstacleGame_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repositories_UnrealEngine_UE5_Test_Projects_TestObstacleGame_Source_TestObstacleGame_MovingPlatform_h__Script_TestObstacleGame_Statics::ClassInfo),
 	nullptr, 0,

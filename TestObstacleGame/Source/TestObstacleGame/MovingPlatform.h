@@ -10,15 +10,14 @@ UCLASS()
 class TESTOBSTACLEGAME_API AMovingPlatform : public AActor
 {
 	GENERATED_BODY()
-	
-	UPROPERTY(EditAnywhere)
-	float memberVariableFloat = 1.0f;
-
-	UPROPERTY(VisibleAnywhere)
-	int memberVariableInt = 150;
 
 	UPROPERTY(EditAnywhere)
-	FVector movingPlatformLocation = {1.0f, 2.0f, 3.0f};
+	FVector movingPlatformTranslationVelocity = { 0.0f, 0.0f, 0.0f };
+	UPROPERTY(EditAnywhere)
+	FRotator movingPlatformRotationVelocity = { 0.0f, 0.0f, 0.0f };
+
+	UPROPERTY(EditAnywhere)
+	float maxMovingDistance = 100.0f;
 
 public:	
 	// Sets default values for this actor's properties
@@ -27,6 +26,8 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	void MovePlatform(float DeltaTime);
+	void RotatePlatform(float DeltaTime);
 
 public:	
 	// Called every frame
@@ -34,5 +35,7 @@ public:
 
 private:
 	FVector movingPlatformStartingLocation = { 0.0f, 0.0f, 0.0f };
-	bool positiveMoveDirection = true;
+	FRotator movingPlatformStartingRotation = { 0.0f, 0.0f, 0.0f };
+	FVector movingPlatformCurrentLocation = { 0.0f, 0.0f, 0.0f };
+	FRotator movingPlatformCurrentRotation = { 0.0f, 0.0f, 0.0f };
 };

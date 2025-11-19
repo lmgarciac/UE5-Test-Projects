@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Lista de cambios no controlados predeterminada",
 			"files": [
-				"C:/Repositories/UnrealEngine/UE5-Test-Projects/TestObstacleGame/Content/GameAssets/Levels/ObstacleMap.umap"
+				"C:/Repositories/UnrealEngine/UE5-Test-Projects/TestObstacleGame/Content/GameAssets/Levels/ObstacleMap.umap",
+				"C:/Repositories/UnrealEngine/UE5-Test-Projects/TestObstacleGame/Content/GameAssets/BP_MovingPlatform.uasset",
+				"C:/Repositories/UnrealEngine/UE5-Test-Projects/TestObstacleGame/Content/GameAssets/BP_MovingPlatformB.uasset"
 			]
 		}
 	]

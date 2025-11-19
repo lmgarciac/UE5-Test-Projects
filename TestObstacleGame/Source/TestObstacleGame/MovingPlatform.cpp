@@ -19,23 +19,42 @@ void AMovingPlatform::BeginPlay()
 	UE_LOG(LogTemp, Display, TEXT("MovingPlatform Begin Play Changed!!"));
 
 	movingPlatformStartingLocation = GetActorLocation();
+	movingPlatformCurrentLocation = movingPlatformStartingLocation;
+
+	movingPlatformStartingRotation = GetActorRotation();
+	movingPlatformCurrentRotation = movingPlatformStartingRotation;
 }
 
 // Called every frame
 void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	MovePlatform(DeltaTime);
+	RotatePlatform(DeltaTime);
+}
 
-	float movementIncrement = 0.0f;
-	movementIncrement = positiveMoveDirection ? 100.0f : -100.0f;
+void AMovingPlatform::MovePlatform(float DeltaTime)
+{
+	movingPlatformCurrentLocation += movingPlatformTranslationVelocity * DeltaTime;
+	SetActorLocation(movingPlatformCurrentLocation);
 
-	movingPlatformLocation += FVector{ movementIncrement * DeltaTime, 0.0f, 0.0f };
-	SetActorLocation(movingPlatformLocation);
+	float distanceMoved = FVector::Dist(movingPlatformStartingLocation, movingPlatformCurrentLocation);
 
-	if (movingPlatformLocation.X > (movingPlatformStartingLocation.X + 1000.0f) && positiveMoveDirection == true)
-		positiveMoveDirection = false;
+	if (distanceMoved >= maxMovingDistance)
+	{
+		FVector movingPlatformDestinationPrecise = movingPlatformStartingLocation + ( movingPlatformTranslationVelocity.GetSafeNormal() * maxMovingDistance);
+		SetActorLocation(movingPlatformDestinationPrecise);
 
-	if (movingPlatformLocation.X < (movingPlatformStartingLocation.X - 1000.0f) && positiveMoveDirection == false)
-		positiveMoveDirection = true;
+		movingPlatformStartingLocation = movingPlatformDestinationPrecise;
+		movingPlatformTranslationVelocity = -movingPlatformTranslationVelocity;
+	}
+}
+
+void AMovingPlatform::RotatePlatform(float DeltaTime)
+{
+	float rotationIncrement = 1.0f;
+
+	movingPlatformCurrentRotation += movingPlatformRotationVelocity * DeltaTime;
+	SetActorRotation(movingPlatformCurrentRotation);
 }
 
